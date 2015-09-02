@@ -1,0 +1,14 @@
+<?xml version = "1.0"?>
+<project name="BaseLine" default="runjUnit" basedir=".">
+
+
+    <target name="build" depends="clean">
+    </target>
+
+    <target name="clean" description="clean previous output directory">
+    </target>
+
+    <target name="runjUnit" depends="build">
+    </target>
+
+</project>
